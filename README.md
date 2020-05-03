@@ -3,7 +3,7 @@
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](https://oss.ninja/mit/raniesantos)
 [![donate](https://img.shields.io/badge/$-donate-ff5f5f.svg?style=flat-square)](https://ko-fi.com/raniesantos)
 
-An advanced starter template for building a static Jigsaw blog hosted on Netlify with analytics, comments, code highlighting, a contact form, a CMS, and more.
+An advanced starter template for building a static Jigsaw blog hosted on Netlify with analytics, comments, code highlighting, ~~a contact form~~, a CMS, and more.
 
 This template has extremely minimal CSS.
 
@@ -21,7 +21,7 @@ ___
 - Share buttons: [sharer.js](https://github.com/ellisonleao/sharer.js)
 - Facebook Open Graph and Twitter Card meta tags
 - Comments: [Disqus](https://disqus.com)
-- Contact form: [Jumprock](https://jumprock.co)
+- ~~Contact form: Jumprock~~
 
 ___
 ## Getting started
