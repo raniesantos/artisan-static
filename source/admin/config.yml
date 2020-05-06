@@ -3,7 +3,14 @@ backend:
   branch: master
   squash_merges: true
 publish_mode: editorial_workflow
-media_folder: images # required but unused, host images externally
+media_folder: images
+media_library:
+  name: cloudinary
+  output_filename_only: true
+  config:
+    cloud_name: artisanstatic
+    api_key: 365895137117119
+site_url: https://artisan-static-demo.netlify.app
 collections:
   - name: "posts"
     label: "Posts"
@@ -15,6 +22,6 @@ collections:
       - {label: "Title", name: "title", widget: "string", default: "Title"}
       - {label: "Date", name: "date", widget: "date"}
       - {label: "Tags", name: "tags", widget: "list", required: false}
-      - {label: "Image Filename", name: "image", widget: "string", required: false}
+      - {label: "Image", name: "image", widget: "image"}
       - {label: "Comments", name: "comments", widget: "boolean", default: true}
       - {label: "Body", name: "body", widget: "markdown"}

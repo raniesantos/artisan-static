@@ -8,6 +8,6 @@
     @include('_partials.cms.identity_widget')
 </head>
 <body>
-    <script src="https://unpkg.com/netlify-cms@2.1.1/dist/netlify-cms.js"></script>
+    <script src="https://unpkg.com/netlify-cms@2.10.48/dist/netlify-cms.js"></script>
 </body>
 </html>
