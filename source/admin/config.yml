@@ -9,7 +9,7 @@ media_library:
   output_filename_only: true
   config:
     cloud_name: artisanstatic
-    api_key: XXXXX
+    api_key: 365895137117119
 site_url: https://artisan-static-demo.netlify.app
 collections:
   - name: "posts"
