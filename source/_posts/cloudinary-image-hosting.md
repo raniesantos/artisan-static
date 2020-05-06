@@ -1,7 +1,7 @@
 ---
-title: '05 - Cloudinary Image Hosting'
-date: 2018-08-31
-image: photos.jpg
+title: 05 - Cloudinary Image Hosting
+date: 2018-08-31T00:00:00.000Z
+image: code.jpg
 comments: false
 ---
 Register on [Cloudinary](https://cloudinary.com/invites/lpov9zyyucivvxsnalc5/qq2slabgpy590znlop4j).
