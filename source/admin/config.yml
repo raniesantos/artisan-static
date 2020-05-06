@@ -4,6 +4,7 @@ backend:
   squash_merges: true
 publish_mode: editorial_workflow
 media_folder: images
+public_folder: ""
 media_library:
   name: cloudinary
   output_filename_only: true
