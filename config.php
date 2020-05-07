@@ -16,7 +16,10 @@ return [
     'services' => [
         'analytics' => 'UA-XXXXX-Y',
         'disqus' => 'artisanstatic',
-        'cloudinary' => 'artisanstatic',
+        'cloudinary' => [
+            'cloudName' => 'artisanstatic',
+            'apiKey' => '365895137117119',
+        ],
         'jumprock' => 'artisanstatic',
     ],
     'collections' => [
@@ -44,6 +47,6 @@ return [
             : null;
     },
     'imageCdn' => function ($page, $path) {
-        return "https://res.cloudinary.com/{$page->services->cloudinary}/{$path}";
+        return "https://res.cloudinary.com/{$page->services->cloudinary->cloudName}/{$path}";
     },
 ];
