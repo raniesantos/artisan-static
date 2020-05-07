@@ -7,7 +7,7 @@
 
     {{-- I know inline CSS isn't good, but this is just a template so you should change everything anyway --}}
     @if ($page->image)
-        <img src="{{ $page->imageCdn($page->image) }}" style="object-fit: cover; height: 250px; width: 100%;">
+        <img src="{{ $page->image }}" style="object-fit: cover; height: 250px; width: 100%;">
     @endif
 
     <p>
