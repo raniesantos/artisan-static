@@ -1,7 +1,7 @@
 ---
 title: '03 - Google Analytics'
-date: 2018-08-31
-image: analytics.jpg
+date: 2020-04-27
+image: https://res.cloudinary.com/artisanstatic/analytics.jpg
 comments: false
 ---
 Register the website on [Google Analytics](https://analytics.google.com/analytics/web).

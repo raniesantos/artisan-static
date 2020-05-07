@@ -1,7 +1,7 @@
 ---
 title: '06 - Jumprock Contact Form'
 date: 2018-08-31
-image: contact.jpg
+image: https://res.cloudinary.com/artisanstatic/contact.jpg
 comments: false
 ---
 Register the email address you want to connect to the contact form on [Jumprock](https://jumprock.co).

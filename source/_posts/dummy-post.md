@@ -1,12 +1,12 @@
 ---
 title: '01 - Dummy Post'
-date: 2017-09-24
+date: 2019-03-16
 tags:
   - css
   - javascript
   - php
   - laravel
-image: sample.jpg
+image: https://res.cloudinary.com/artisanstatic/sample.jpg
 ---
 ## Heading 2
 

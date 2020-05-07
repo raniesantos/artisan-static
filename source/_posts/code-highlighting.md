@@ -1,12 +1,12 @@
 ---
 title: '07 - Code Highlighting'
-date: 2018-08-31
-image: code.jpg
+date: 2020-04-27
+image: https://res.cloudinary.com/artisanstatic/code.jpg
 comments: false
 ---
 Below are some examples of code blocks with syntax highlighting.
 
-Go to `source/_assets/js/highlight.js` to view/change the registered languages.
+Go to `source/_assets/js/main.js` to view/change the registered languages.
 
 Go to `source/_assets/sass/main.scss` to change the theme.
 

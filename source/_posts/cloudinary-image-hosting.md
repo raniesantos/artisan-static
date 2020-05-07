@@ -1,7 +1,7 @@
 ---
 title: '05 - Cloudinary Image Hosting'
-date: 2018-08-31
-image: photos.jpg
+date: 2020-04-27
+image: https://res.cloudinary.com/artisanstatic/photos.jpg
 comments: false
 ---
 Register on [Cloudinary](https://cloudinary.com/invites/lpov9zyyucivvxsnalc5/qq2slabgpy590znlop4j).

@@ -1,7 +1,7 @@
 ---
 title: '04 - Disqus Comments'
-date: 2018-08-31
-image: conversation.jpg
+date: 2020-04-27
+image: https://res.cloudinary.com/artisanstatic/conversation.jpg
 comments: false
 ---
 Register the website on [Disqus](https://disqus.com/profile/signup).
