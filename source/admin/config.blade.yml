@@ -1,0 +1,26 @@
+backend:
+  name: git-gateway
+  branch: master
+  squash_merges: true
+publish_mode: editorial_workflow
+media_folder: images
+media_library:
+  name: cloudinary
+  config:
+    cloud_name: {{ $page->services->cloudinary->cloudName }}
+    api_key: {{ $page->services->cloudinary->apiKey }}
+site_url: {{ $page->baseUrl }}
+collections:
+  - name: "posts"
+    label: "Posts"
+    label_singular: "Post"
+    folder: "source/_posts"
+    create: true
+    slug: "@{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string", default: "Title"}
+      - {label: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DD", timeFormat: false}
+      - {label: "Tags", name: "tags", widget: "list", required: false}
+      - {label: "Image", name: "image", widget: "image"}
+      - {label: "Comments", name: "comments", widget: "boolean", default: true}
+      - {label: "Body", name: "body", widget: "markdown"}

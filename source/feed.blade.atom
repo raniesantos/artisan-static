@@ -1,0 +1,25 @@
+<?php echo "<?xml version=\"1.0\"?>\n"; ?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>{{ $page->site->title }}</title>
+    <link type="application/atom+xml" rel="self" href="{{ $page->getUrl() }}"/>
+    <updated>{{ date(DATE_ATOM) }}</updated>
+    <id>{{ $page->getUrl() }}</id>
+    <author>
+        <name>{{ $page->owner->name }}</name>
+    </author>
+
+    @foreach ($posts->take(20) as $post)
+        <entry>
+            <id>{{ $post->getUrl() }}</id>
+            <link type="text/html" rel="alternate" href="{{ $post->getUrl() }}" />
+            <title>{{ $post->title }}</title>
+            <published>{{ date(DATE_ATOM, $post->date) }}</published>
+            <updated>{{ date(DATE_ATOM, $post->date) }}</updated>
+            <author>
+                <name>{{ $page->owner->name }}</name>
+            </author>
+            <summary type="html">{{ $post->excerpt() }}</summary>
+        </entry>
+    @endforeach
+
+</feed>
