@@ -5,6 +5,10 @@ use TightenCo\Jigsaw\Jigsaw;
 /** @var $container \Illuminate\Container\Container */
 /** @var $events \TightenCo\Jigsaw\Events\EventBus */
 
+$events->afterBuild(function ($jigsaw) {
+    $jigsaw->getFilesystem()->copyDirectory(__DIR__ . '/source/_assets/favicons', $jigsaw->getDestinationPath());
+});
+
 function content_sanitize($value)
 {
     return str_replace(["\r", "\n", "\r\n"], ' ', strip_tags($value));

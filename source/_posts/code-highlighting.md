@@ -6,7 +6,7 @@ comments: false
 ---
 Below are some examples of code blocks with syntax highlighting.
 
-Go to `source/_assets/js/main.js` to view/change the registered languages.
+Go to `source/_assets/js/highlight.js` to view/change the registered languages.
 
 Go to `source/_assets/sass/main.scss` to change the theme.
 
