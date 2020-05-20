@@ -10,7 +10,7 @@
     },
     "devDependencies": {
         "cross-env": "^3.2.3",
-        "highlight.js": "^10.0.1",
+        "highlight.js": "^10.0.3",
         "laravel-mix": "^4.0.0",
         "laravel-mix-jigsaw": "^1.1.0",
         "notyf": "^3.7.0",
