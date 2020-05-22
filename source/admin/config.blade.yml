@@ -19,7 +19,7 @@ collections:
     slug: "@{{slug}}"
     fields:
       - {label: "Title", name: "title", widget: "string", default: "Title"}
-      - {label: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DD", timeFormat: false}
+      - {label: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DD", timeFormat: false, pickerUtc: true}
       - {label: "Tags", name: "tags", widget: "list", required: false}
       - {label: "Image", name: "image", widget: "image"}
       - {label: "Comments", name: "comments", widget: "boolean", default: true}
