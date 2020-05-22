@@ -1,6 +1,6 @@
 ---
-title: '02 - Favicons'
-date: 2020-05-02
+title: 02 - Favicons
+date: 2020-05-12
 image: https://res.cloudinary.com/artisanstatic/icons.jpg
 comments: false
 ---
