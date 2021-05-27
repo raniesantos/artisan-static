@@ -1,6 +1,6 @@
 ---
 title: '08 - Cloudinary Media Library'
-date: 2021-03-18
+date: 2021-05-18
 image: https://res.cloudinary.com/artisanstatic/photos.jpg
 comments: false
 ---

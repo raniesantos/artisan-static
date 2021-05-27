@@ -1,6 +1,6 @@
 ---
 title: '03 - Google Analytics'
-date: 2021-03-13
+date: 2021-05-13
 image: https://res.cloudinary.com/artisanstatic/analytics.jpg
 comments: false
 ---

@@ -14,7 +14,7 @@ return [
         'github' => 'johndoe',
     ],
     'services' => [
-        'cmsVersion' => '2.10.111',
+        'cmsVersion' => '2.10.125',
         'analytics' => 'UA-XXXXX-Y',
         'disqus' => 'artisanstatic',
         'formcarry' => 'XXXXXXXXXXXX',
