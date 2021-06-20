@@ -1,6 +1,6 @@
 ---
 title: '06 - Code Highlighting'
-date: 2021-05-16
+date: 2021-06-16
 image: https://res.cloudinary.com/artisanstatic/code.jpg
 comments: false
 ---

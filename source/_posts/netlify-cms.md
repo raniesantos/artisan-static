@@ -1,6 +1,6 @@
 ---
 title: '07 - Netlify CMS'
-date: 2021-05-17
+date: 2021-06-17
 image: https://res.cloudinary.com/artisanstatic/cms.jpg
 comments: false
 ---
